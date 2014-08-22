@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -D__ASSEMBLY__ -DUSE_STDPERIPH_DRIVER -I..\..\..\..\..\Users\gokhan\Desktop\stm-usb\STM32DiscoveryVCP-master\STM32DiscoveryVCP-master\cmsis -I..\..\..\..\..\Users\gokhan\Desktop\stm-usb\STM32DiscoveryVCP-master\STM32DiscoveryVCP-master\usb_lib -I..\..\..\..\..\Users\gokhan\Desktop\stm-usb\STM32DiscoveryVCP-master\STM32DiscoveryVCP-master\usb_lib\cdc -I..\..\..\..\..\Users\gokhan\Desktop\stm-usb\STM32DiscoveryVCP-master\STM32DiscoveryVCP-master\usb_lib\core -I..\..\..\..\..\Users\gokhan\Desktop\stm-usb\STM32DiscoveryVCP-master\STM32DiscoveryVCP-master\cmsis_boot -I..\..\..\..\..\Users\gokhan\Desktop\stm-usb\STM32DiscoveryVCP-master\STM32DiscoveryVCP-master -I..\..\..\..\..\Users\gokhan\Desktop\stm-usb\STM32DiscoveryVCP-master\STM32DiscoveryVCP-master\cmsis_lib\include -I..\..\..\..\..\Users\gokhan\Desktop\stm-usb\STM32DiscoveryVCP-master\STM32DiscoveryVCP-master\cmsis_lib -I..\..\..\..\..\Users\gokhan\Desktop\stm-usb\STM32DiscoveryVCP-master -I..\..\..\..\..\Users\gokhan\Desktop\stm-usb\STM32DiscoveryVCP-master\STM32DiscoveryVCP-master\usb_conf -I..\..\..\..\..\Users\gokhan\Desktop\stm-usb\STM32DiscoveryVCP-master\STM32DiscoveryVCP-master\usb_lib\otg">
+      <target file="stm32f4xx_exti.o" lastModified="147ff21df1a">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="140db7654e0"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="147ff21dcac">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="140db7654e0"/>
+      </target>
+      <target file="usbd_core.o" lastModified="147ff21db4e">
+         <source file="..\..\..\usb_lib\core\usbd_core.c" lastModified="140db7654e0"/>
+      </target>
+      <target file="usbd_desc.o" lastModified="147ff21dc5a">
+         <source file="..\..\..\usb_conf\usbd_desc.c" lastModified="140db7654e0"/>
+      </target>
+      <target file="usbd_cdc_core.o" lastModified="147ff21ded4">
+         <source file="..\..\..\usb_lib\cdc\usbd_cdc_core.c" lastModified="140db7654e0"/>
+      </target>
+      <target file="usbd_cdc_vcp.o" lastModified="147ff21dcfb">
+         <source file="..\..\..\usb_lib\cdc\usbd_cdc_vcp.c" lastModified="140db7654e0"/>
+      </target>
+      <target file="usbd_ioreq.o" lastModified="147ff21e009">
+         <source file="..\..\..\usb_lib\core\usbd_ioreq.c" lastModified="140db7654e0"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="147ff21daf9">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="140db7654e0"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="147ff21dd3c">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="140db7654e0"/>
+      </target>
+      <target file="usb_bsp.o" lastModified="147ff21dd8f">
+         <source file="..\..\..\usb_conf\usb_bsp.c" lastModified="140db7654e0"/>
+      </target>
+      <target file="misc.o" lastModified="147ff21df5d">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="140db7654e0"/>
+      </target>
+      <target file="usbd_req.o" lastModified="147ff21ddff">
+         <source file="..\..\..\usb_lib\core\usbd_req.c" lastModified="140db7654e0"/>
+      </target>
+      <target file="usb_dcd.o" lastModified="147ff21dfbe">
+         <source file="..\..\..\usb_lib\otg\usb_dcd.c" lastModified="140db7654e0"/>
+      </target>
+      <target file="usb_dcd_int.o" lastModified="147ff21de7d">
+         <source file="..\..\..\usb_lib\otg\usb_dcd_int.c" lastModified="140db7654e0"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="147ff21dc14">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="140db7654e0"/>
+      </target>
+      <target file="usb_core.o" lastModified="147ff21da0d">
+         <source file="..\..\..\usb_lib\otg\usb_core.c" lastModified="140db7654e0"/>
+      </target>
+      <target file="usbd_usr.o" lastModified="147ff21da55">
+         <source file="..\..\..\usb_conf\usbd_usr.c" lastModified="140db7654e0"/>
+      </target>
+      <target file="main.o" lastModified="147ff50d233">
+         <source file="..\..\..\main.c" lastModified="147ff50cb2d"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="147ff21dac6">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="140db7654e0"/>
+      </target>
+   </processor>
+</history>

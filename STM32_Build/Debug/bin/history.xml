@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=build.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\STM32DiscoveryVCP -TC:\CooCox\CoIDE\configuration\ProgramData\STM32DiscoveryVCP/arm-gcc-link.ld -g">
+      <target file="build.elf" lastModified="147ff50d40a">
+         <source file="..\obj\usb_core.o" lastModified="147ff21da0d"/>
+         <source file="..\obj\usbd_usr.o" lastModified="147ff21da55"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="147ff21dac6"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="147ff21daf9"/>
+         <source file="..\obj\usbd_core.o" lastModified="147ff21db4e"/>
+         <source file="..\obj\main.o" lastModified="147ff50d233"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="147ff21dc14"/>
+         <source file="..\obj\usbd_desc.o" lastModified="147ff21dc5a"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="147ff21dcac"/>
+         <source file="..\obj\usbd_cdc_vcp.o" lastModified="147ff21dcfb"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="147ff21dd3c"/>
+         <source file="..\obj\usb_bsp.o" lastModified="147ff21dd8f"/>
+         <source file="..\obj\usbd_req.o" lastModified="147ff21ddff"/>
+         <source file="..\obj\usb_dcd_int.o" lastModified="147ff21de7d"/>
+         <source file="..\obj\usbd_cdc_core.o" lastModified="147ff21ded4"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="147ff21df1a"/>
+         <source file="..\obj\misc.o" lastModified="147ff21df5d"/>
+         <source file="..\obj\usb_dcd.o" lastModified="147ff21dfbe"/>
+         <source file="..\obj\usbd_ioreq.o" lastModified="147ff21e009"/>
+      </target>
+   </processor>
+</history>
